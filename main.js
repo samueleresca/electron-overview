@@ -14,10 +14,9 @@ app.on('window-all-closed', function() {
 //The app is ready to render window
 app.on('ready', function() {
   // Init the browser window
-  mainWindow = new BrowserWindow({width: 800, height: 600, 'node-integration':true});
+  mainWindow = new BrowserWindow({width: 800, height: 600});
   // the browser window refers index.html
   mainWindow.loadUrl('file://' + __dirname + '/index.html');
-
   // Open the Dev console
   mainWindow.openDevTools();
   // on window close, the mainWindow is null
