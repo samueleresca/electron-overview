@@ -1,4 +1,4 @@
-(function() {
+(function () {
   if (typeof $M === 'undefined') {
     $M = {};
   }
@@ -8,13 +8,13 @@
     console.log(getElectroVer());
   }
 
-  function getNodeVer(){
-    return "Node JS Ver:"+process.version;
+  function getNodeVer() {
+    return "Node JS Ver:" + process.version;
   }
 
-  function getElectroVer(){
-    return "Electro Ver:"+process.versions['electron'];
+  function getElectroVer() {
+    return "Electro Ver:" + process.versions['electron'];
   }
 
   $M.infoLog = init;
-}());
+} ());

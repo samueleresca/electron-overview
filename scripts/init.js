@@ -3,7 +3,7 @@ require('./scripts/infoLog');
 require('./scripts/fileManager');
 
 //On load
-window.onload=function(){
+window.onload = function () {
 
   $M.infoLog();
   $M.fileManager();
