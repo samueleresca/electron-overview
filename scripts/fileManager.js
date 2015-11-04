@@ -1,3 +1,4 @@
+/* global $M */
 (function () {
   if (typeof $M === 'undefined') {
     $M = {};
