@@ -1,5 +1,3 @@
-
-
 (function () {
   if (typeof $M === 'undefined') {
     $M = {};
